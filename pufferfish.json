@@ -1,0 +1,32 @@
+  {
+    "name": "fish.pufferfish.raw",
+    "id": 206,
+    "icon": "fish_raw_puffer_fish",
+    "use_animation": "eat",
+    "use_duration": 32,
+    "max_damage": 0,
+    "stacked_by_data": true,
+
+    "food": {
+      "nutrition": 1,
+      "saturation_modifier": 0.1,
+      "is_meat": true,
+      "effects": [
+        {
+          "name": "poison",
+          "duration": 60,
+          "amplifier": 3
+        },
+        {
+          "name": "nausea",
+          "duration": 15,
+          "amplifier": 1
+        },
+        {
+          "name": "hunger",
+          "duration": 15,
+          "amplifier": 2
+        }
+      ]
+    }
+  },
