@@ -8,7 +8,7 @@
     "stacked_by_data": true,
 
     "food": {
-      "nutrition": 4,
+      "nutrition": 3,
       "saturation_modifier": 0.1,
       "is_meat": true,
       "effects": [
